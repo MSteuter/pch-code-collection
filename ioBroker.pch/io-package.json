@@ -1,0 +1,81 @@
+{
+    "common": {
+        "name": "pch",
+        "version": "0.0.1",
+        "news": {
+			"0.0.1": {
+				"en": "Initial version",
+				"de": "Initiale version",
+				"ru": "Первоначальная версия",
+				"pt": "Versão inicial",
+				"nl": "Eerste versie",
+				"fr": "Version initiale",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Wersja wstępna",
+				"zh-cn": "初始版本"
+			}
+        },
+        "title": "Philips Clean Home",
+        "titleLang": {
+            "en": "Philips Clean Home",
+            "de": "Philips Clean Home",
+            "ru": "Philips Clean Home",
+            "pt": "Philips Clean Home",
+            "nl": "Philips Clean Home",
+            "fr": "Philips Clean Home",
+            "it": "Philips Clean Home",
+            "es": "Philips Clean Home",
+            "pl": "Philips Clean Home",
+            "zh-cn": "Philips Clean Home"
+        },
+        "desc": {
+            "en": "Integration of Philips Clean Home devices",
+            "de": "Einbinden von Philips Clean Home Geräten",
+            "ru": "Интеграция устройств Philips Clean Home",
+            "pt": "Integração de dispositivos Philips Clean Home",
+            "nl": "Integratie van Philips Clean Home apparaten",
+            "fr": "Intégration des appareils Philips Clean Home",
+            "it": "Integrazione dei dispositivi Philips Clean Home",
+            "es": "Integración de los dispositivos Philips Clean Home",
+            "pl": "Integracja urządzeń Philips Clean Home",
+            "zh-cn": "集成Philips Clean Home设备"
+        },
+        "authors": [
+            "Christopher Holomek <holomekc.github@gmail.com>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "Philips Clean Home",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "build/main.js",
+        "icon": "pch-logo.jpg",
+        "enabled": false,
+        "extIcon": "https://raw.githubusercontent.com/holomekc/ioBroker.pch/master/admin/pch-logo.jpg",
+        "readme": "https://github.com/holomekc/ioBroker.pch/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "iot-systems",
+        "compact": true,
+        "materialize": true,
+		"connectionType ": "local",
+		"dataSource": "push",
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+		"host": "192.168.178.10",
+		"identifier": "",
+		"systemPassword": "",
+		"pairingDelay": 10000
+    },
+    "objects": [],
+    "instanceObjects": []
+}
